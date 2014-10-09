@@ -1,0 +1,88 @@
+
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:300italic,600italic,300,600);
+
+// fc5843
+$brand_base: #66a8a1;
+
+$openSans: proxima-nova, sans-serif;
+$font-family-sans-serif: $openSans;
+$font-base-size: 18px;
+$headings-font-weight: 300; 
+$btn-primary-bg: $brand_base;
+$panel-default-text: #fff;
+$panel-default-heading-bg: $brand_base;
+$navbar-height: 125px;
+
+$navbar-default-brand-color: #fff;
+
+$navbar-default-bg: $brand_base;
+$navbar-default-link-color: $brand_base;
+$navbar-default-link-hover-color: darken($brand_base, 50%);
+$navbar-default-link-active-bg: transparent;
+$brand-primary: $brand_base;
+$navbar-link-color: #333;
+
+
+@import "../../bower_components/bootstrap-sass-official/assets/stylesheets/_bootstrap";
+
+@mixin fade($attribute, $duration) {
+  -moz-transition: $attribute $duration;
+  -webkit-transition: $attribute $duration;
+  transition: $attribute $duration;
+}
+
+@mixin opacity-fade($duration) {
+  -moz-transition: opacity $duration;
+  -webkit-transition: opacity $duration;
+  transition: opacity $duration;
+}
+
+body {
+    background: #f2f2f2;
+    &.home-template {
+        .navbar-default {
+            background-color: #fff;
+        }
+    }
+}
+
+.navbar {
+  border: none;
+  .avatar {
+    margin-top: $navbar-height / 2 - 35;
+  }
+  li.active {
+    a {
+      border-bottom: 3px solid $brand-base;
+      padding-bottom: 5px;
+      padding-left: 5px;
+      padding-right: 5px;
+      margin-right: 20px;
+
+    }
+  }
+}
+
+.avatar {
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+}
+
+article {
+  &.post {
+    float: left;
+    display: block;
+  }
+}
+.color-block {
+  background: hsla(random(360), 55, 90, 1);
+  width: 200px;
+  height: 200px;
+  float: left;
+  margin: 25px;
+}
+.pagination {
+  clear: both;
+  width: 100%;
+}

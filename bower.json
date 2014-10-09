@@ -1,0 +1,18 @@
+{
+  "name": "jake",
+  "version": "0.1.0",
+  "authors": [
+    "jakedahn <jake@markupisart.com>"
+  ],
+  "description": "theme for jake.ai",
+  "main": "assets/scss/main.scss",
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
