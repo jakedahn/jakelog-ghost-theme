@@ -4,10 +4,18 @@
 // fc5843
 $brand_base: #66a8a1;
 
-$openSans: proxima-nova, sans-serif;
-$font-family-sans-serif: $openSans;
+
 $font-base-size: 18px;
-$headings-font-weight: 300; 
+
+$font-family-sans-serif: 'proxima-nova', serif;
+$font-family-serif: 'ff-meta-serif-web-pro', georgia serif;
+
+$font-family-base: $font-family-serif;
+
+$headings-font-weight: 700;
+$headings-font-family: 'proxima-nova', serif;
+
+ 
 $btn-primary-bg: $brand_base;
 $panel-default-text: #fff;
 $panel-default-heading-bg: $brand_base;
@@ -24,6 +32,7 @@ $navbar-link-color: #333;
 
 
 @import "../../bower_components/bootstrap-sass-official/assets/stylesheets/_bootstrap";
+@import "../../bower_components/components-font-awesome/scss/font-awesome";
 
 @mixin fade($attribute, $duration) {
   -moz-transition: $attribute $duration;
@@ -63,6 +72,14 @@ body {
   }
 }
 
+.post {
+  p {
+    font-size: 22px;
+    line-height: 30px;
+    color: rgba(0, 0, 0, 0.8);
+  }
+}
+
 .avatar {
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
@@ -75,6 +92,18 @@ article {
     display: block;
   }
 }
+
+.post-title {
+  a {
+    color: #555;
+    text-decoration: none;
+    @include fade(color, 0.3s);
+    &:hover {
+      color: #000;
+    }
+  }
+}
+
 .color-block {
   background: hsla(random(360), 55, 90, 1);
   width: 200px;
@@ -82,7 +111,9 @@ article {
   float: left;
   margin: 25px;
 }
+
 .pagination {
   clear: both;
   width: 100%;
 }
+

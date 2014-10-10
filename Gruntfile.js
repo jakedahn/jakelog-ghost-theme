@@ -42,6 +42,13 @@ module.exports = function (grunt) {
             }
         },
 
+        copy: {
+            main: {
+                files: [
+                    {expand: true, src: ['./bower_components/components-font-awesome/fonts/*'], dest: 'assets/fonts/', filter: 'isFile'}
+                ]
+            }
+        },
         uglify: {
             js: {
                 files: {
@@ -74,6 +81,7 @@ module.exports = function (grunt) {
 
     });
 
+    grunt.loadNpmTasks('grunt-contrib-copy');
     grunt.loadNpmTasks('grunt-contrib-compass');
     grunt.loadNpmTasks('grunt-contrib-cssmin');
     grunt.loadNpmTasks('grunt-contrib-uglify');
@@ -83,7 +91,7 @@ module.exports = function (grunt) {
 
 
     grunt.registerTask('default', ['compass', 'cssmin', 'uglify', 'concat', 'watch']);
-    grunt.registerTask('dev', ['compass', 'cssmin', 'uglify', 'concat', 'connect', 'watch']);
+    grunt.registerTask('dev', ['compass', 'cssmin', 'uglify', 'concat', 'connect', 'copy', 'watch']);
     grunt.registerTask('build', ['compass', 'cssmin', 'uglify', 'concat']);
 
 };

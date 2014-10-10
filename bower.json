@@ -14,5 +14,10 @@
     "bower_components",
     "test",
     "tests"
-  ]
+  ],
+  "devDependencies": {
+    "bootstrap-sass-official": "~3.2.0",
+    "components-font-awesome": "~4.2"
+  }
+
 }
