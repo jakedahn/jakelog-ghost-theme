@@ -17,6 +17,8 @@
 
     {{! Styles'n'Scripts }}
     <link rel="stylesheet" type="text/css" href="{{asset "css/theme.min.css"}}" />
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.3/styles/monokai_sublime.min.css">
+
     {{ghost_head}}
   </head>
 
@@ -25,7 +27,7 @@
     <div class="navbar navbar-default navbar-static-top" role="navigation">
       <div class="container">
         <div class="navbar-header">
-          <a href='/'>
+          <a class='brand' href='/'>
             <div class='pull-left'>
               <img class='avatar' src="http://www.gravatar.com/avatar/eb9f58086e20c6a51c78b43e1f683e6e?s=70" />
             </div>
@@ -47,6 +49,8 @@
     <div class="container">
       {{{body}}}
     </div>
+
+    <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.3/highlight.min.js"></script>
 
     <script type="text/javascript" src="{{asset "js/theme.min.js"}}"></script>
     <script type="text/javascript" src="{{asset "js/index.js"}}"></script>

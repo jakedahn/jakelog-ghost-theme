@@ -55,6 +55,9 @@ body {
     }
 }
 
+pre {
+  background: #23241f;
+}
 .navbar {
   border-bottom: 1px solid #f1f1f1;
   .avatar {
@@ -73,14 +76,7 @@ body {
   h4 {
     margin-top: 50px;
     margin-left: 25px;
-  }
-}
-
-.post {
-  p {
-    font-size: 18px;
-    line-height: 31.5px;
-    color: rgba(58, 65, 69, 1);
+    color: #000;
   }
 }
 
@@ -143,6 +139,12 @@ article {
       margin-top: -25px;
       margin-bottom: 25px;
     }
+  }
+  p {
+    font-size: 18px;
+    line-height: 31.5px;
+    color: rgba(58, 65, 69, 1);
+    margin-bottom: 20px;
   }
   h3, h4, h5, h6 {
     font-size: 28px;

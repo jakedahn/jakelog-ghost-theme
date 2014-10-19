@@ -38,4 +38,6 @@
         });
 
     });
+
+    hljs.initHighlightingOnLoad();
 })(jQuery);
