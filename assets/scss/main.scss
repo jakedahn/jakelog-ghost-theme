@@ -23,7 +23,7 @@ $navbar-height: 125px;
 
 $navbar-default-brand-color: #fff;
 
-$navbar-default-bg: $brand_base;
+$navbar-default-bg: #f9f9f9;
 $navbar-default-link-color: $brand_base;
 $navbar-default-link-hover-color: darken($brand_base, 50%);
 $navbar-default-link-active-bg: transparent;
@@ -47,16 +47,16 @@ $navbar-link-color: #333;
 }
 
 body {
-    background: #f2f2f2;
+    background: #fff;
     &.home-template {
         .navbar-default {
-            background-color: #fff;
+            background-color: #f9f9f9;
         }
     }
 }
 
 .navbar {
-  border: none;
+  border-bottom: 1px solid #f1f1f1;
   .avatar {
     margin-top: $navbar-height / 2 - 35;
   }
@@ -121,6 +121,34 @@ article {
     left: 70%;
   }
 
+}
+
+.post {
+  .post-header {
+    margin-top: 50px;
+  }
+  .post-title {
+    font-size: 38px;
+  }
+  .post-meta {
+    color: #999;
+    margin-bottom: 50px;
+  }
+  .post-footer {
+    margin-top: 100px;
+    padding-top: 50px;
+    border-top: 1px solid #f1f1f1;
+    h2 {
+      font-size: 38px;
+      margin-top: -25px;
+      margin-bottom: 25px;
+    }
+  }
+  h3, h4, h5, h6 {
+    font-size: 28px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+  }
 }
 
 .home-template {
