@@ -52,7 +52,7 @@ module.exports = function (grunt) {
         uglify: {
             js: {
                 files: {
-                    'assets/js/theme.min.js': ['bower_components/jquery/dist/jquery.js', 'assets/js/lib/*.js', 'assets/js/plugins/*.js', 'assets/js/helpers/*.js', 'assets/js/base.js']
+                    'assets/js/theme.min.js': ['bower_components/jquery/dist/jquery.js', 'assets/js/lib/*.js', 'assets/js/plugins/*.js', 'assets/js/helpers/*.js', 'assets/js/index.js']
                 }
             }
         },
