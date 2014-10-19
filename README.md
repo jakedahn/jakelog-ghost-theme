@@ -1,11 +1,12 @@
-# Casper
+# jakelog-ghost-theme
 
-The default theme for [Ghost](http://github.com/tryghost/ghost/).
+This is a fork of the default [Ghost](http://github.com/tryghost/ghost/) theme called [Casper](https://github.com/TryGhost/Casper).
 
-To download, visit the [releases](https://github.com/TryGhost/Casper/releases) page.
+I used it primarily as a scaffold, most things are different/worse than casper itself.
 
 ## Copyright & License
 
+Copyright (c) 2014 Jake Dahn
 Copyright (c) 2013-2014 Ghost Foundation - Released under the MIT License.
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
