@@ -92,6 +92,6 @@ module.exports = function (grunt) {
 
     grunt.registerTask('default', ['compass', 'cssmin', 'uglify', 'concat', 'watch']);
     grunt.registerTask('dev', ['compass', 'cssmin', 'uglify', 'concat', 'connect', 'copy', 'watch']);
-    grunt.registerTask('build', ['compass', 'cssmin', 'uglify', 'concat']);
+    grunt.registerTask('build', ['compass', 'cssmin', 'copy', 'uglify', 'concat']);
 
 };
