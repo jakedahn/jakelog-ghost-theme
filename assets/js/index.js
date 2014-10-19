@@ -18,7 +18,6 @@
                             icons: "fa fa-instagram",
                             parent: "instagram"
                         };
-
                     }
                     if ($tag === "blog") {
                         post_type = {
@@ -33,8 +32,10 @@
                     parent: "bookmark"
                 };
             }
-            $(this).find('.post-type').addClass(post_type.parent)
-            $(this).find('.post-type').append("<i class='"+post_type.icons+"'></i>");
+            if (post_type) {
+                $(this).find('.post-type').addClass(post_type.parent);
+                $(this).find('.post-type').append("<i class='" + post_type.icons + "'></i>");
+            }
         });
 
     });
