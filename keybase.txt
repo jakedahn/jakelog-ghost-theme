@@ -1,0 +1,65 @@
+==================================================================
+https://keybase.io/jakedahn
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://jake.ai
+  * I am jakedahn (https://keybase.io/jakedahn) on keybase.
+  * I have a public key with fingerprint E6ED E5C3 1868 4C1E 44E7  673C AF4C AD99 EA58 5656
+
+To claim this, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "fingerprint": "e6ede5c318684c1e44e7673caf4cad99ea585656",
+            "host": "keybase.io",
+            "key_id": "af4cad99ea585656",
+            "uid": "38177d0cd93e0ac76f5daa3cac644a00",
+            "username": "jakedahn"
+        },
+        "service": {
+            "hostname": "jake.ai",
+            "protocol": "http:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1415155743,
+    "expire_in": 157680000,
+    "prev": "680b9b5ee6249137d5b67ca03a4be300cd8abb3e664f6da87ae5c8efd0326634",
+    "seqno": 5,
+    "tag": "signature"
+}
+
+with the aforementioned key, yielding the PGP signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v1.1.3
+Comment: https://keybase.io/crypto
+
+yMHhAnicbVFbSBRRGF5v4a7mbqT0UBodQ31Qm3FmzswuhJgaGkiaghjicmbm7O60
+OrPtjpaIBV1EfFGhrSiJRJJMKrBQMCwNfUjD1DS6EIT20C5FtT1UbGhnpKCHzsvh
+/853+f/zT2+NM1liFq394zl1vV9i5iY/Nptq6np2twFRk1uBow148eblUlQ39vv8
+iqoDB8AQy5iTGFqAAivRmGUxD3lGQi5WQrLdjhEncJCDIBd4tIChIDYiCuB8RSMY
+KZyKTND/8Js3HxiB5nmZkmQ7gykk8dDFyQiRAAmyLKIogxjAfhU1YcI+hrxYRh4V
+tOcCgrYoEjZ6NqL/YeQjhch8fk3XJK2RgB5d9zkMjd7qM0gnsOj8I3eKiiqTkYmg
+BfsDiqYCB02Ykq4YfjRLczTH8SyTC/BJn+LHTsVgcDwUKHKMGNxCLEkp2kUOY1jA
+2mmGlzkR8hKiGMSKmKHIgAISRQZDyLqgjAQekW8VsEummAIIGRYYAx1XNeDgSJvI
+TSwDiltFerMfg/bHk/XxphiLaUtCrLE0k8Vs+7vK8KdE0733YfORJyVrG+Gumawy
+88oDrLsvnG7atXOkyu5qVXd49duZ5eVzCud5ez+YU1sWn/Mq9ChvdE1dO5PKV0QH
+r6Z1W631ceHSvdHuo3sGx6qfzZdHalN+DlQ+PXAj41fHh9Trn4ekGuu5DHH01IgN
+dDHry7OBpP6pim1lmaWoMaUo3aGenbk1MThV2Dm8fSErFElcLSgpch4OJt/0RF2V
+5n1VC0l8wth8RF081BDf19Z0Nzi75Bx++OPSsm1pYOPdfk968mxc2kS2905WeuRg
+7OUXPSPZlud90a9vQnnTIdP3cevQt95gWF29JnQWX+xo6C/eOL/yer268Mpk8svf
+7x8S1w==
+=kLP/
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/jakedahn
+
+==================================================================

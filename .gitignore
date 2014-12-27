@@ -24,4 +24,5 @@ bower_components
 theme.min.css
 theme.min.js
 
-assets/fonts/font*
+assets/fonts/*some*
+assets/scss/build
